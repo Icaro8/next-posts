@@ -5,6 +5,7 @@ import { NavBar } from "../../components/NavBar";
 import { Cards } from "../../components/Cards";
 
 import styles from "./styles.module.scss";
+import { Header } from "../../components/Header";
 
 const Dogs: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const Dogs: React.FC = () => {
         <title>Dog</title>
       </Head>
       <div>
+        <Header />
         <NavBar />
       </div>
       <div className={styles.containerimage}>

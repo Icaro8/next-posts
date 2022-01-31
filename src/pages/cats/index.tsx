@@ -3,6 +3,7 @@ import Head from "next/head";
 
 import { NavBar } from "../../components/NavBar";
 import { Cards } from "../../components/Cards";
+import { Header } from "../../components/Header";
 
 import styles from "./styles.module.scss";
 
@@ -13,6 +14,7 @@ const cats: React.FC = () => {
         <title>Cats</title>
       </Head>
       <div>
+        <Header />
         <NavBar />
       </div>
       <div className={styles.containerImage}>
@@ -20,7 +22,8 @@ const cats: React.FC = () => {
           <h2>Section Cats</h2>
         </div>
       </div>
-      <section>
+      <h1>Cats Only</h1>
+      <section className={styles.contaienrcards}>
         <Cards />
         <Cards />
         <Cards />
