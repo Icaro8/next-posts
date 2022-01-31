@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  div {
+    width: 200px;
+    height: 150px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .containertext {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    .name {
+      text-align: center;
+    }
+  }
+}

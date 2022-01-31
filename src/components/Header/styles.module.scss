@@ -1,0 +1,30 @@
+@media screen and (max-width: 413px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cyan-50);
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 5px 40px;
+  background-color: var(--cyan-50);
+  .containerTitle {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    h1 {
+      font-family: "Pacifico", cursive;
+      color: var(--blue-900);
+    }
+    svg {
+      width: 40px;
+      height: 40px;
+      color: var(--blue-800);
+    }
+  }
+}

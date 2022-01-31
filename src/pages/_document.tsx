@@ -7,7 +7,7 @@ const _document: NextPage = () => {
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;700&family=Roboto:wght@300;700;900&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;700&family=Pacifico&family=Roboto:wght@300;700;900&display=swap"
           rel="stylesheet"
         />
       </Head>

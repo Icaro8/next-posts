@@ -1,0 +1,25 @@
+.containerNav {
+  background-color: var(--purple-700);
+
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 10px;
+    li {
+      a {
+        text-decoration: none;
+        padding: 10px;
+        color: var(--white);
+        &:hover {
+          filter: brightness(0.8);
+          text-decoration: underline;
+          transition: 0.2s;
+        }
+      }
+      .active {
+        text-decoration: underline;
+      }
+    }
+  }
+}

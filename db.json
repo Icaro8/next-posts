@@ -1,5 +1,129 @@
 {
-  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
-  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
-  "profile": { "id": 1, "name": "Icaro Vieira", "admin": true }
+  "dogs": [
+    {
+      "id": 1,
+      "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-cSKMkjwMQlo%2FT7-TGjA3fMI%2FAAAAAAAABE0%2FvxEIs8V25x4%2Fs1600%2FHerry.jpg&f=1&nofb=1",
+      "Cow": "Lavrador",
+      "color": "white",
+      "Gender": "Male"
+    },
+    {
+      "id": 2,
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fpetcaramelo.com%2Fwp-content%2Fuploads%2F2018%2F12%2Fpitbull.jpg%3Ffit%3D1024%252C768%26ssl%3D1&f=1&nofb=1",
+      "Cow": "Pitbull",
+      "color": "brown",
+      "Gender": "Male"
+    },
+    {
+      "id": 3,
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fde.ihavefind.com%2Fcouverture%2Fgefahrlicher-rottweiler-hund.jpg&f=1&nofb=1",
+      "Cow": "Rottweiler",
+      "color": "Black",
+      "Gender": "Male"
+    },
+    {
+      "id": 4,
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fpetcaramelo.com%2Fwp-content%2Fuploads%2F2018%2F07%2Fdalmata-cachorro-pintado.jpg%3Fresize%3D1024%252C747%26ssl%3D1&f=1&nofb=1",
+      "Cow": "Dálmata",
+      "color": "White y black",
+      "Gender": "Famale"
+    }
+  ],
+  "cats": [
+    {
+      "id": 1,
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcf.ltkcdn.net%2Fgatos%2Fimages%2Fstd%2F247401-800x515r1-gatos-siameses-tipos-colores-nombres.jpg&f=1&nofb=1",
+      "Cow": "Cat",
+      "color": "white",
+      "Gender": "Famale"
+    },
+    {
+      "id": 2,
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmaisro.com.br%2Fwp-content%2Fuploads%2F2018%2F06%2Fgatos-696x464.jpg&f=1&nofb=1",
+      "Cow": "Cat",
+      "color": "white",
+      "Gender": "Male"
+    },
+    {
+      "id": 3,
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fprod.media.wapa.pe%2F970x647%2Fwapa%2Fimagen%2F2015%2F11%2F23%2FNota-9518-los-gatos-se-asustan-al-ver-pepinos-porque-se-sienten-amenazados-video-wapa.jpg&f=1&nofb=1",
+      "Cow": "Cat",
+      "color": "Gray",
+      "Gender": "Male"
+    },
+    {
+      "id": 3,
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fosegredo.com.br%2Fwp-content%2Fuploads%2F2015%2F03%2Fgato-preto.jpg&f=1&nofb=1",
+      "race": "Cat",
+      "color": "Gray",
+      "Gender": "Famale"
+    },
+    {
+      "id": 4,
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.wagwalkingweb.com%2Fmedia%2Fdaily_wag%2Fblog_articles%2Fhero%2F1609801417.5254068%2Fscreen-shot-2021-01-04-at-30314-pm.png&f=1&nofb=1",
+      "Cow": "Cat",
+      "color": "Black",
+      "Gender": "Famale"
+    }
+  ],
+  "rabbits": [
+    {
+      "id": 1,
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.mulherportuguesa.com%2Fwp-content%2Fuploads%2F2016%2F10%2Fcoelho-selvagem.jpg&f=1&nofb=1",
+      "Cow": "Rabbit",
+      "color": "brown",
+      "Gender": "Famale"
+    },
+    {
+      "id": 2,
+      "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F3.bp.blogspot.com%2F_a9TKwCfpo98%2FSuXhUtvdLUI%2FAAAAAAAAABo%2FKSvo9lgsQS4%2Fw1200-h630-p-k-no-nu%2Fanimal4.jpg&f=1&nofb=1",
+      "Cow": "Rabbit",
+      "color": "White",
+      "Gender": "Famale"
+    },
+    {
+      "id": 3,
+      "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.nutripetshop.com.br%2Fwp-content%2Fuploads%2F2016%2F05%2F12321443_473034946238786_4080012528664932810_n.jpg&f=1&nofb=1",
+      "Cow": "Rabbit",
+      "color": "brown",
+      "Gender": "Male"
+    },
+    {
+      "id": 4,
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.mundoecologia.com.br%2Fwp-content%2Fgallery%2Fcoelhos-comendo%2FCoelhos-Comendo-6.jpg&f=1&nofb=1",
+      "Cow": "Rabbit",
+      "color": "brown y white",
+      "Gender": "Famale"
+    }
+  ],
+  "birds": [
+    {
+      "id": 1,
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flive.staticflickr.com%2F3647%2F3685548882_1966689259.jpg&f=1&nofb=1",
+      "Cow": "brid",
+      "color": "Black",
+      "Gender": "Male"
+    },
+    {
+      "id": 2,
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FlKjL_4XH68c%2Fmaxresdefault.jpg&f=1&nofb=1",
+      "Cow": "brid",
+      "color": "Gray",
+      "Gender": "Male"
+    },
+    {
+      "id": 3,
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F3.bp.blogspot.com%2F-IcaFkrv_2kw%2FW_85dEIBApI%2FAAAAAAAATx4%2FDzkBoSg2NroBL0Sx_04DHuPW-eSSNDGrgCLcBGAs%2Fs2560%2Fparrot-2560x1440-colorful-hd-4k-16690.jpg&f=1&nofb=1",
+      "Cow": "brid",
+      "color": "Red",
+      "Gender": "Famale"
+    },
+    {
+      "id": 4,
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.opopularjm.com.br%2Fwp-content%2Fuploads%2F2017%2F04%2F59958.jpg&f=1&nofb=1",
+      "Cow": "brid",
+      "color": "Blue",
+      "Gender": "Male"
+    }
+  ]
 }
