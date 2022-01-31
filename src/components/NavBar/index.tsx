@@ -7,6 +7,7 @@ import styles from "./styles.module.scss";
 export const NavBar: React.FC = () => {
   const router = useRouter();
   const path = router.pathname;
+  console.log(path);
   return (
     <nav className={styles.containerNav}>
       <ul>
@@ -16,13 +17,13 @@ export const NavBar: React.FC = () => {
           </Link>
         </li>
         <li>
-          <Link href="/">
-            <a>Dogs</a>
+          <Link href="/dogs">
+            <a className={path === "/dogs" ? styles.active : ""}>Dogs</a>
           </Link>
         </li>
         <li>
-          <Link href="/">
-            <a>Cats</a>
+          <Link href="/cats">
+            <a className={path === "/cats" ? styles.active : ""}>Cats</a>
           </Link>
         </li>
         <li>
